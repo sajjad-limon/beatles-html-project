@@ -1,0 +1,164 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575px) {
+    .desktop_header {
+        display: none;
+    }
+    .first_header_icons ul li {
+        float: left;
+        padding: 0 5px;
+    }
+    .first_header_icons ul li a {
+        color: #fff;
+    }
+    .header_icons ul li {
+        float: left;
+        padding: 0 5px;
+    }
+    .welcome_msg p {
+        font-size: 11px;
+        margin-top: 4px;
+        text-align: center;
+    }
+
+    .navbar{
+        text-align: center;
+    }
+    .banner_overlay {
+        text-align: center;
+    }
+    .banner_overlay h1 {
+        font-size: 33px;
+    }
+    .about_content p:first-child {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .service_main {
+        margin-top: 50px;
+    }
+
+    .team_title p {
+        margin-bottom: 20px;
+    }
+
+    .piramid {
+        top: -8%;
+        left: 43.5%;
+    }
+    .round_img {
+        margin-top: 20px;
+    }
+    .footer_logo {
+        text-align: center;
+    }
+    .footer_text {
+        text-align: center;
+    }
+    .x_sm_hidden {
+        display: none;
+    }
+    .footer_common_head h4 {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .footer_icon a {
+        margin-left: 50px;
+    }
+    .x_sm_links {
+        margin-left: 50px;
+    }
+    .footer_bottom p {
+        font-size: 12px;
+    }
+}
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .mobile_header {
+        display: none;
+    }
+    .navbar{
+        text-align: center;
+    }
+
+    .service_main {
+        margin-bottom: 30px;
+    }
+
+    .piramid {
+        top: -8%;
+        left: 41.6%;
+    }
+
+    .footer_logo {
+        text-align: center;
+    }
+    .footer_text {
+        text-align: center;
+    }
+    .x_sm_hidden {
+        display: none;
+    }
+    .footer_common_head h4 {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .footer_icon a {
+        margin-left: 70px;
+    }
+    .x_sm_links {
+        margin-left: 80px;
+    }
+    .footer_bottom p {
+        font-size: 14px;
+    }
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+    .mobile_header {
+        display: none;
+    }
+
+    .about_content p:first-child {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer_common_head h4 {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .x_about_hidden {
+        display: none;
+    }
+
+    .footer_logo {
+        text-align: center;
+    }
+    .footer_text {
+        text-align: center;
+    }
+
+    .footer_icon a {
+        margin-left: 13px;
+    }
+    .x_sm_links {
+        margin-left: 30px;
+    }
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .mobile_header {
+        display: none;
+    }
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
